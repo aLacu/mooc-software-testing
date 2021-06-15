@@ -14,7 +14,7 @@ public class LeapYearTest {
     @Test
     public void leapCenturialYears() {
         LeapYear ly = new LeapYear();
-        Assertions.assertTrue(ly.isLeapYear(2000));
+        Assertions.assertTrue(ly.isLeapYear(400));
     }
 
     @Test
