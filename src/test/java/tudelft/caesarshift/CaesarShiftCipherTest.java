@@ -13,7 +13,7 @@ public class CaesarShiftCipherTest {
             "a,27,b",
             "a,0,a",
             "a a,0,a a",
-            "a,-1,z",})
+            "a,-1,z"})
     void testCypher(String input, int shift, String expected){
         final String output = new CaesarShiftCipher().CaesarShiftCipher(input, shift);
         Assertions.assertEquals(expected, output);
